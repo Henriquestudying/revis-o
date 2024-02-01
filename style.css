@@ -1,8 +1,7 @@
 body{
-    background-color: darkgrey;
-    text-align: center;
+    background-color: darkgray;
+    text-align: center;    
 }
-
 h1{
     font-family: Consolas, monaco, monospace;
     text-align: center;

@@ -8,7 +8,15 @@ const sexo = prompt('Qual seu sexo?')
 const cidade = prompt('Qual a sua cidade?')
 const estado = prompt('Qual o seu Estado?')
 
-if (nome && cpf && idade && telefone && endereco && email && sexo && cidade && estado){
+if (nome &&
+    cpf &&
+    idade && 
+    telefone && 
+    endereco && 
+    email && 
+    sexo && 
+    cidade && 
+    estado){
     console.log(`Nome: ${nome}
 CPF: ${cpf}
 Idade: ${idade} anos
