@@ -1,0 +1,22 @@
+body{
+    background-color: darkgrey;
+    text-align: center;
+}
+
+h1{
+    font-family: Consolas, monaco, monospace;
+    text-align: center;
+    color: purple;
+}
+
+p{
+    font-family: consolas, monaco, monospace;
+    text-align: center;
+    font-style: italic;
+    color: rgb(82, 3, 128);
+}
+
+h3{
+    font-family: consolas, monaco, monospace;
+    color: rgb(82, 3, 128);
+}
