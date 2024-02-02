@@ -34,8 +34,3 @@ Cadastro concluído com sucesso`);
     console.log('Dados inválidos')
     alert('Dados inválidos');
 }
-
-
-// Endereço: ${endereco}
-// Cidade: ${cidade}
-// Estado: ${estado}
