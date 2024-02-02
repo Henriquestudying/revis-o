@@ -17,7 +17,7 @@ if (!/\d/.test(nome) &&
     !/\d/.test(cidade) &&
     !/\d/.test(estado) &&
     sexo.toUpperCase() == 'M' || sexo.toUpperCase() == 'F') {
-
+        
     console.log(`Nome: ${nome}
 Idade: ${idade} anos
 CPF: ${cpf}
