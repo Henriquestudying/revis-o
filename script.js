@@ -1,5 +1,5 @@
 const nome = prompt('Olá, qual é o seu nome?');
-let cpf = Number(prompt('Qual é o seu CPF?'));
+const cpf = Number(prompt('Qual é o seu CPF?'));
 let idade = Number(prompt('Qual a sua idade?'));
 let telefone = Number(prompt('Digite seu Telefone Celular:'));
 const endereco = prompt('Qual é o seu endereço?');
@@ -9,7 +9,7 @@ const cidade = prompt('Qual a sua cidade?');
 const estado = prompt('Qual o seu Estado?');
 
 if (!/\d/.test(nome) &&
-    (!isNaN(cpf) && cpf.toString().length >= 8 && cpf.toString().length <= 11) &&
+(!isNaN(cpf) && cpf.toString().length >= 8 && cpf.toString().length <= 11) &&
     (!isNaN(idade) && idade > 0) &&
     (!isNaN(telefone) && telefone.toString().length <= 9 && telefone.toString().length <= 11) &&
     endereco &&
@@ -19,11 +19,11 @@ if (!/\d/.test(nome) &&
     sexo.toUpperCase() == 'M' || sexo.toUpperCase() == 'F') {
 
     console.log(`Nome: ${nome}
+Idade: ${idade} anos
 CPF: ${cpf}
-Idade: ${idade} anoss
+Sexo: ${sexo}
 Telefone: ${telefone}
 Email: ${email}
-Sexo: ${sexo}
 Endereço: ${endereco}
 Cidade: ${cidade}
 Estado: ${estado}
@@ -36,3 +36,6 @@ Cadastro concluído com sucesso`);
 }
 
 
+// Endereço: ${endereco}
+// Cidade: ${cidade}
+// Estado: ${estado}
